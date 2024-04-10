@@ -4,8 +4,8 @@
   <remote name="oe" fetch="https://github.com/openembedded"/>
   <remote name="lgirdk" fetch="https://github.com/lgirdk"/>
 
-  <project name="poke"  remote="yp" path="src/poky" upstream="zeus"/>
-  <project name="meta-opemembedded"  remote="oe"  path="src/meta-openembedded" upstream="zeus"/>
+  <project name="poky"  remote="yp" path="src/poky" upstream="zeus"/>
+  <project name="meta-openembedded"  remote="oe"  path="src/meta-openembedded" upstream="zeus"/>
   <project name="openembedded-core"  remote="oe"  path="src/oe-core"  upstream="zeus"/>
   <project name="meta-virtualization"  remote="lgirdk"  path="src/meta-virtualization" upstream="zeus"/>
 </manifest>
